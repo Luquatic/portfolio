@@ -1,0 +1,44 @@
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+
+// COLORS
+$primary: #a5c1e5;
+$silver:  #bdc3c7;
+$concrete: #95a5a6;
+
+// FONT
+$default-font-size: 1.6rem;
+.fw- {
+  &100 {
+    font-weight: 100;
+  }
+  &200 {
+    font-weight: 200;
+  }
+  &300 {
+    font-weight: 300;
+  }
+  &400 {
+    font-weight: 400;
+  }
+  &500 {
+    font-weight: 500;
+  }
+  &600 {
+    font-weight: 600;
+  }
+  &700 {
+    font-weight: 700;
+  }
+  &800 {
+    font-weight: 800;
+  }
+  &900 {
+    font-weight: 900;
+  }
+}
+
+$trans-icon: .2s !important;
